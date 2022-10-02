@@ -2,16 +2,15 @@
 /* CSS Document */
 
 body{
-	background: url("images/jac nova studio logo.png") no-repeat;
-	background-repeat: no-repeat;
-    background-size: cover;
+	background: url("images/jac nova studio logo.png") no-repeat; 
+    background-size:cover ;
 	
 }
 
 
 
 #container{
-	width:900px;
+	width:1000px;
 	margin:0 auto;
 }
 header{
@@ -22,8 +21,10 @@ header{
 
 header h1 {
 	font-family: good-times,sans-serif;
-font-weight: 400;
-font-style: normal;
+font-weight: 900;
+font-style: italic;
+color: #FF0004;
+text-align:center;
 }
 nav{
 	width:100%;
@@ -46,15 +47,19 @@ nav li{
 footer{
 	text-align: center;
 	clear:both;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: good-times,sans-serif;
+font-weight: 700;
+font-style: normal;
+color:#C00003;
+	
 
 }
 
 nav a:link {
-font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-  color:rgba(104,104,104,.75);
-  text-decoration: none;
-  margin-right: 20px;
+font-family: good-times,sans-serif;
+font-weight: 500;
+font-style: normal;
+color: aqua
 	
 }
 
@@ -63,7 +68,8 @@ nav a:visited {
 }
 
 nav a:hover {
-  color:rgba(104,104,104,1);
+  color: #DC1A1D;
+text-decoration:overline; 
 }
 
 nav a:active {
@@ -79,10 +85,12 @@ nav a:active {
 }
 
 .right{
-	width: 400px; 
-	float:left;
+	width: 400px;
+	float: left;
 	margin-left: 30px;
-	margin-top:30px;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	font-size: 18px;
+	margin-top: 30px;
+	font-family: vintage-deco,sans-serif;
+font-weight: 700;
+font-style: italic;
+	color: blueviolet;
 }
