@@ -108,3 +108,9 @@ font-style: italic;
 	background-color:rgba(212,210,210,1.00);
 	padding:0 20px 0 20px;
 }
+#right img{
+	z-index: 20;
+	position:absolute;
+	top: 5px; 
+	
+}
