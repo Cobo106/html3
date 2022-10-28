@@ -89,6 +89,7 @@ nav a:active {
 	float:left;
 	margin-top:50px;
 	margin-right:20px;
+	margin-left: 20px;
 	margin-bottom: 30px;
 	background-color:rgba(212,210,210,1.00);
 	padding:0 20px 0 20px;
@@ -98,7 +99,7 @@ nav a:active {
 .right{
 	width: 400px;
 	float: left;
-	margin-left: 30px;
+	margin-left: 100px;
 	margin-right: 30px;
 	margin-top: 50px;
 	font-family: vintage-deco,sans-serif;
