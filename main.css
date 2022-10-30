@@ -47,6 +47,11 @@ font-style: normal;
 color: #FF0004;
 text-align:center;
 }
+.navbar{
+	width:100%;
+	background-color:black;
+	overflow:auto;
+}
 nav{
 	width:100%;
 	text-align: center;
@@ -96,7 +101,22 @@ text-decoration:overline;
 nav a:active {
   text-decoration: underline;
 }
+.navbar {
+  width: 100%;
+  background-color:black;
+  overflow: auto;
+}
 
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+  width: 25%; 
+  text-align: center; 
+}
 .left{
 	width: 380px;
 	height: 270px;
@@ -123,12 +143,4 @@ font-style: italic;
 	background-color:rgba(212,210,210,0.87);
 	padding:0 20px 0 20px;
 	border-radius: 0 20px 20px 0;
-}
-.form{
-font-family: 'Permanent Marker', cursive;
-	width:400px;
-	float: left;
-	font-color: #BB0000;
-	font-style:normal;
-	
 }
