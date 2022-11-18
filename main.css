@@ -19,7 +19,7 @@ body{
 	color: #BB0000;
     }
 .img{
-	height: 250px;
+	
 	width:250px;
 }
 
@@ -118,9 +118,7 @@ nav a:active {
   text-align: center; 
 }
 .left{
-	width: 380px;
-	height: 270px;
-	float:left;
+	flex-grow: 1;
 	margin-top:50px;
 	margin-right:20px;
 	margin-left: 20px;
@@ -129,7 +127,7 @@ nav a:active {
 	padding:0 20px 0 20px;
 	
 }
-
+/*
 .right{
 	width: 400px;
 	float: left;
@@ -143,4 +141,15 @@ font-style: italic;
 	background-color:rgba(212,210,210,0.87);
 	padding:0 20px 0 20px;
 	border-radius: 0 20px 20px 0;
-}
+}*/
+
+.right{
+	flex-grow: 1;	
+	margin-top: 50px;
+	font-family: vintage-deco,sans-serif;
+font-weight: 700;
+font-style: italic;
+	color: #BB0000;
+	background-color:rgba(212,210,210,0.87);
+	padding:0 20px 0 20px;
+	border-radius: 0 20px 20px 0;
