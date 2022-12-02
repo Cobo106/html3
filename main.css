@@ -165,10 +165,11 @@ font-style: italic;
 }
 
 /* Create three equal columns that sits next to each other */
+
 .column {
   flex: 50%;
-  padding: 25px;
+  padding: 50px;
 	background-color:rgba(212,210,210,0.87);
+
+
 }
-
-
